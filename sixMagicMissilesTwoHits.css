@@ -1,0 +1,672 @@
+.blueWizBackgroundColor{
+  background-color: rgb(43, 146, 214);
+}
+
+.greyWizBackgroundColor{
+  background-color: rgb(111, 119, 113);
+}
+
+.redWizBackgroundColor {
+  background-color:rgb(194, 75, 85);
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#screen {
+    position: relative;    
+}
+
+#whiteBackground,
+
+#blueWizArmPcAttackLeft, #blueWizArmPcAttackRight, #blueWizArmPcDefaultLeft, #blueWizArmPcDefaultRight, #blueWizArmPcDefendLeft, #blueWizArmPcDefendRight, #blueWizArmPcClenchLeft,
+#blueWizArmPcClenchRight, #blueWizPcWithoutArmsOrArchimedes, #magicMissile_0PcLeft, #magicMissile_0PcRight, #magicMissile_1PcLeft, #magicMissile_1PcRight, #magicMissile_2PcLeft, 
+#magicMissile_2PcRight, #magicMissile_3PcLeft, #magicMissile_3PcRight, #magicMissileCondensation_0PcLeft, #magicMissileCondensation_0PcRight, #magicMissileCondensation_1PcLeft, 
+#magicMissileCondensation_1PcRight, #magicMissileCondensation_2PcLeft, #magicMissileCondensation_2PcRight, #magicMissileCondensation_3PcLeft, #magicMissileCondensation_3PcRight,
+#magicMissileCondensation_4PcLeft, #magicMissileCondensation_4PcRight, #magicMissileCondensation_5PcLeft, #magicMissileCondensation_5PcRight, #magicMissilePcDefendedLeft, 
+#magicMissilePcDefendedRight, #magicMissileSplosionPcDefendedLeft, #magicMissileSplosionPcDefendedRight, #magicMissileSplosionPcLeft, #magicMissileSplosionPcRight, #star_0PcLeft,
+#star_0PcRight, #star_1PcLeft, #star_1PcRight, #star_2PcLeft, #star_2PcRight, #star_3PcLeft, #star_3PcRight, #star_4PcLeft, #star_4PcRight,
+
+#blueWizArmNpcAttackLeft, #blueWizArmNpcAttackRight, #blueWizArmNpcDefaultLeft, #blueWizArmNpcDefaultRight, #blueWizArmNpcDefendLeft, #blueWizArmNpcDefendRight, #blueWizArmNpcClenchLeft,
+#blueWizArmNpcClenchRight, #blueWizNpcWithoutArmsOrArchimedes, #magicMissile_0NpcLeft, #magicMissile_0NpcRight, #magicMissile_1NpcLeft, #magicMissile_1NpcRight, #magicMissile_2NpcLeft, 
+#magicMissile_2NpcRight, #magicMissile_3NpcLeft, #magicMissile_3NpcRight, #magicMissileCondensation_0NpcLeft, #magicMissileCondensation_0NpcRight, #magicMissileCondensation_1NpcLeft, 
+#magicMissileCondensation_1NpcRight, #magicMissileCondensation_2NpcLeft, #magicMissileCondensation_2NpcRight, #magicMissileCondensation_3NpcLeft, #magicMissileCondensation_3NpcRight,
+#magicMissileCondensation_4NpcLeft, #magicMissileCondensation_4NpcRight, #magicMissileCondensation_5NpcLeft, #magicMissileCondensation_5NpcRight, #magicMissileNpcDefendedLeft, 
+#magicMissileNpcDefendedRight, #magicMissileSplosionNpcDefendedLeft, #magicMissileSplosionNpcDefendedRight, #magicMissileSplosionNpcLeft, #magicMissileSplosionNpcRight, #star_0NpcLeft,
+#star_0NpcRight, #star_1NpcLeft, #star_1NpcRight, #star_2NpcLeft, #star_2NpcRight, #star_3NpcLeft, #star_3NpcRight, #star_4NpcLeft, #star_4NpcRight,
+
+#greyWizArmPcDefaultLeft,#greyWizArmPcDefaultRight, #greyWizArmPcDefendLeft, #greyWizArmPcDefendRight, #greyWizPcWithoutArms,
+
+#greyWizArmNpcDefaultLeft,#greyWizArmNpcDefaultRight, #greyWizArmNpcDefendLeft, #greyWizArmNpcDefendRight, #greyWizNpcWithoutArms,
+
+#redWizPc, #redWizPcDefendLeft, #redWizPcDefendRight, #redWizPcStruckLeft, #redWizPcStruckRight,
+
+#redWizNpc, #redWizNpcDefendLeft, #redWizNpcDefendRight, #redWizNpcStruckLeft, #redWizNpcStruckRight {
+    position: absolute;    
+}
+
+#whiteBackground {
+  left: 685px;
+}
+
+/*pc blueWiz */
+
+/*archimedes placeHolder*/
+
+#blueWizArmPcAttackLeft {
+  left: 760px;
+  top: 737px;
+  z-index: 6000;
+}
+
+#blueWizArmPcAttackRight {
+  left: 1023px;
+  top: 732px;
+  z-index: 6000;
+}
+
+#blueWizArmPcDefaultLeft {
+  left: 880px;
+  top: 814px;
+  z-index: 6000;
+}
+
+#blueWizArmPcDefaultRight {
+  left: 1025px;
+  top: 795px;
+  z-index: 6000;
+}
+
+#blueWizArmPcDefendLeft{
+  left: 764px;
+  top: 583px;
+  z-index: 6000;
+}
+
+#blueWizArmPcDefendRight{
+  left: 1009px;
+  top: 577px;
+  z-index: 6000;
+}
+
+#blueWizArmPcClenchLeft {
+  left: 774px;
+  top: 734px;
+  z-index: 6000;
+}
+
+#blueWizArmPcClenchRight {
+  left: 1026px;
+  top: 733px;
+  z-index: 6000;
+}
+
+#blueWizPcWithoutArmsOrArchimedes {
+  left: 706px;
+  top: 487px;
+  z-index: 6000;
+}
+
+#magicMissile_0PcLeft {
+  left: 764px;
+  top: 621px;
+  z-index: 5990;
+}
+
+#magicMissile_0PcRight {
+  left: 1034px;
+  top: 621px;
+  z-index: 5990;
+}
+
+#magicMissile_1PcLeft {
+  left: 802px;
+  top: 448px;
+  z-index: 5980;
+}
+
+#magicMissile_1PcRight {
+  left: 1037px;
+  top: 447px;
+  z-index: 5980;
+}
+
+#magicMissile_2PcLeft {
+  left: 835px;
+  top: 289px;
+  z-index: 5970;
+}
+
+#magicMissile_2PcRight {
+  left: 1020px;
+  top: 290px;
+  z-index: 5970;
+}
+
+#magicMissile_3PcLeft {
+  left: 856px;
+  top: 167px;
+  z-index: 5960;
+}
+
+#magicMissile_3PcRight {
+  left: 1020px;
+  top: 166px;
+  z-index: 5960;
+}
+
+#magicMissileCondensation_0PcLeft {
+  left: 667px;
+  top: 675px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_0PcRight {
+  left: 985px;
+  top: 666px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_1PcLeft {
+  left: 687px;
+  top: 695px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_1PcRight {
+  left: 977px;
+  top: 685px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_2PcLeft {
+  left: 690px;
+  top: 715px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_2PcRight {
+  left: 990px;
+  top: 707px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_3PcLeft {
+  left: 735px;
+  top: 736px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_3PcRight {
+  left: 1036px;
+  top: 732px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_4PcLeft {
+  left: 775px;
+  top: 778px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_4PcRight {
+  left: 1072px;
+  top: 771px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_5PcLeft {
+  left: 783px;
+  top: 785px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_5PcRight {
+  left: 1084px;
+  top: 782px;
+  z-index: 5990;
+}
+
+#magicMissilePcDefendedLeft {
+  left: 815px;
+  top: 11px;
+  z-index: 5970;
+}
+
+#magicMissilePcDefendedRight {
+  left: 1042px;
+  top: 7px;
+  z-index: 5970;
+}
+
+#magicMissileSplosionPcDefendedLeft {
+  left: 682px;
+  top: 137px;
+  z-index: 5970;
+}
+
+#magicMissileSplosionPcDefendedRight {
+  left: 1071px;
+  top: 141px;
+  z-index: 5970;
+}
+
+#magicMissileSplosionPcLeft {
+  left: 816px;
+  top: 116px;
+  z-index: 5970;
+}
+
+#magicMissileSplosionPcRight {
+  left: 974px;
+  top: 113px;
+  z-index: 5970;
+}
+
+#star_0PcLeft {
+  left: 714px;
+  top: 683px;
+  z-index: 5990;
+}
+
+#star_0PcRight {
+  left: 1100px;
+  top: 671px;
+  z-index: 5990;
+}
+
+#star_1PcLeft {
+  left: 724px;
+  top: 686px;
+  z-index: 5990;
+}
+
+#star_1PcRight {
+  left: 1028px;
+  top: 676px;
+  z-index: 5990;
+}
+
+#star_2PcLeft {
+  left: 677px;
+  top: 682px;
+  z-index: 5990;
+}
+
+#star_2PcRight {
+  left: 1024px;
+  top: 675px;
+  z-index: 5990;
+}
+
+#star_3PcLeft {
+  left: 678px;
+  top: 684px;
+  z-index: 5990;
+}
+
+#star_3PcRight {
+  left: 990px;
+  top: 676px;
+  z-index: 5990;
+}
+
+#star_4PcLeft {
+  left: 678px;
+  top: 683px;
+  z-index: 5990;
+}
+
+#star_4PcRight {
+  left: 990px;
+  top: 675px;
+  z-index: 5990;
+}
+
+/*npc blueWiz*/
+
+/*archimedes placeHolder*/
+
+#blueWizArmNpcAttackLeft {
+  left: 843px;
+  top: 168px;
+}
+
+#blueWizArmNpcAttackRight {
+  left: 988px;
+  top: 153px;
+}
+
+#blueWizArmNpcDefaultLeft {
+  left: 872px;
+  top: 168px;
+}
+
+#blueWizArmNpcDefaultRight {
+  left: 989px;
+  top: 154px;
+}
+
+#blueWizArmNpcDefendLeft{
+  left: 841px;
+  top: 129px;
+}
+
+#blueWizArmNpcDefendRight{
+  left: 977px;
+  top: 112px;
+}
+
+#blueWizArmNpcClenchLeft {
+  left: 846px;
+  top: 167px;
+}
+
+#blueWizArmNpcClenchRight {
+  left: 988px;
+  top: 153px;
+}
+
+#blueWizNpcWithoutArmsOrArchimedes {
+  left: 849px;
+  top: -2px;
+}
+
+#magicMissile_0NpcLeft {
+  left: 865px;
+  top: 220px;
+}
+
+#magicMissile_0NpcRight {
+  left: 1019px;
+  top: 217px;
+}
+
+#magicMissile_1NpcLeft {
+  left: 841px;
+  top: 265px;
+}
+
+#magicMissile_1NpcRight {
+  left: 1013px;
+  top: 263px;
+}
+
+#magicMissile_2NpcLeft {
+  left: 820px;
+  top: 357px;
+}
+
+#magicMissile_2NpcRight {
+  left: 1025px;
+  top: 352px;
+}
+
+#magicMissile_3NpcLeft {
+  left: 803px;
+  top: 473px;
+}
+
+#magicMissile_3NpcRight {
+  left: 1034px;
+  top: 471px;
+}
+
+#magicMissileCondensation_0NpcLeft {
+  left: 799px;
+  top: 152px;
+}
+
+#magicMissileCondensation_0NpcRight {
+  left: 976px;
+  top: 146px;
+}
+
+#magicMissileCondensation_1NpcLeft {
+  left: 815px;
+  top: 162px;
+}
+
+#magicMissileCondensation_1NpcRight {
+  left: 978px;
+  top: 160px;
+}
+
+#magicMissileCondensation_2NpcLeft {
+  left: 830px;
+  top: 175px;
+}
+
+#magicMissileCondensation_2NpcRight {
+  left: 993px;
+  top: 182px;
+}
+
+#magicMissileCondensation_3NpcLeft {
+  left: 857px;
+  top: 189px;
+}
+
+#magicMissileCondensation_3NpcRight {
+  left: 1012px;
+  top: 196px;
+}
+
+#magicMissileCondensation_4NpcLeft {
+  left: 869px;
+  top: 203px;
+}
+
+#magicMissileCondensation_4NpcRight {
+  left: 1023px;
+  top: 212px;
+}
+
+#magicMissileCondensation_5NpcLeft {
+  left: 874px;
+  top: 213px;
+}
+
+#magicMissileCondensation_5NpcRight {
+  left: 1028px;
+  top: 215px;
+}
+
+#magicMissileNpcDefendedLeft {
+  left: 750px;
+  top: 414px;
+}
+
+#magicMissileNpcDefendedRight {
+  left: 1084px;
+  top: 415px;
+}
+
+#magicMissileSplosionNpcDefendedLeft {
+  left: 684px;
+  top: 431px;
+}
+
+#magicMissileSplosionNpcDefendedRight {
+  left: 1046px;
+  top: 434px;
+}
+
+#magicMissileSplosionNpcLeft {
+  left: 680px;
+  top: 611px;
+}
+
+#magicMissileSplosionNpcRight {
+  left: 1002px;
+  top: 611px;
+}
+
+#star_0NpcLeft {
+  left: 816px;
+  top: 148px;
+}
+
+#star_0NpcRight {
+  left: 1042px;
+  top: 149px;
+}
+
+#star_1NpcLeft {
+  left: 818px;
+  top: 135px;
+}
+
+#star_1NpcRight {
+  left: 998px;
+  top: 149px;
+}
+
+#star_2NpcLeft {
+  left: 796px;
+  top: 148px;
+}
+
+#star_2NpcRight {
+  left: 996px;
+  top: 147px;
+}
+
+#star_3NpcLeft {
+  left: 796px;
+  top: 149px;
+}
+
+#star_3NpcRight {
+  left: 976px;
+  top: 150px;
+}
+
+#star_4NpcLeft {
+  left: 797px;
+  top: 149px;
+}
+
+#star_4NpcRight {
+  left: 976px;
+  top: 149px;
+}
+
+/*pc greyWiz*/
+
+#greyWizArmPcDefaultLeft {
+  left: 780px;
+  top: 482px;
+}
+
+#greyWizArmPcDefaultRight {
+  left: 1055px;
+  top: 465px;
+}
+
+#greyWizArmPcDefendLeft {
+  left: 812px;
+  top: 469px;
+}
+
+#greyWizArmPcDefendRight {
+  left: 1049px;
+  top: 450px;
+}
+
+#greyWizPcWithoutArms {
+  left: 785px;
+  top: 458px;
+}
+
+
+
+/*npc greyWiz*/
+
+#greyWizArmNpcDefaultLeft {
+  left: 845px;
+  top: 18px;
+}
+
+#greyWizArmNpcDefaultRight {
+  left: 1001px;
+  top: 24px;
+}
+
+#greyWizArmNpcDefendLeft {
+  left: 850px;
+  top: -5px;
+}
+
+#greyWizArmNpcDefendRight {
+  left: 999px;
+  top: 10px;
+}
+
+#greyWizNpcWithoutArms {
+  left: 842px;
+  top: -28px;
+}
+
+/*pc redWiz*/
+
+#redWizPcDefendLeft {
+  left: 794px;
+  top: 608px;
+  z-index: 999;
+}
+
+#redWizPcDefendRight {
+  left: 1000px;
+  top: 617px;
+}
+
+#redWizPc {
+  left: 792px;
+  top: 592px;
+  z-index: 1000;
+}
+
+#redWizPcStruckLeft {
+  left: 761px;
+  top: 595px;
+}
+
+#redWizPcStruckRight {
+  left: 747px;
+  top: 593px;
+}
+
+/*npc redWiz*/
+
+#redWizNpcDefendLeft {
+  left: 865px;
+  top: 123px;
+  z-index: 1010;
+}
+
+#redWizNpcDefendRight {
+  left: 958px;
+  top: 123px;
+  z-index: 1010;
+}
+
+#redWizNpc {
+  left: 848px;
+  top: 80px;  
+}
+
+#redWizNpcStruckLeft {
+  left: 844px;
+  top: 80px;
+}
+
+#redWizNpcStruckRight {
+  left: 827px;
+  top: 78px;
+}
